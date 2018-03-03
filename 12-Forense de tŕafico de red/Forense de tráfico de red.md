@@ -14,9 +14,13 @@ Objetivo: Conocer los protocolos de nivel de aplicación más empleados
 * DNS
 * HTTPS
 
-## 3. Fundamentos de captura: Definición, Acceso, Almacenamiento, Gestión
-Objetivo:
-Dificultades a la hora de capturar el tráfico
+## 3. Fundamentos de captura: Formatos, Definición, Acceso, Almacenamiento, Gestión
+Objetivo: Entender qué es una captura de red 
+* Formatos de captura de red
+* Definición:
+* Acceso: Dificultades a la hora de capturar el tráfico
+* Almacenamiento:
+* Gestión:
 
 ## 4. Mecanismos de captura de tráfico (hardware, software)
 Objetivo:
@@ -57,11 +61,11 @@ Objetivo: Conocer qué mecanismos pueden ser usados para exfiltrar información 
 * SMTP
 * ICMP
 
-## Libros: 
+## Libros
 + "Network Forensics Tracking Hackers Through Cyberspace" - Sherri Davidoff/Jonathan Ham, Ed Prentice Hall
 + "The Practice of Network Security Monitoring" - Richard Bejtlich, Ed. No Starch Press
 
-## Distros: 
+## Distros
 + Security Onion -  Distro basada en Ubuntu orientada a la detección de intrusos y monitorización de red: https://securityonion.net/
 + SELKS - Distro basada en Debian orientada a la detección de intrusos: https://www.stamus-networks.com/open-source
 
@@ -71,17 +75,16 @@ Objetivo: Conocer qué mecanismos pueden ser usados para exfiltrar información 
 + tshark - Herramienta de Wireshark en línea de comandos para el análisis de tráfico, con las mismas capacidades pero scriptable: https://www.wireshark.org/docs/wsug_html_chunked/AppToolstshark.html
 + dumpcaps - Herramienta de Wireshark para la captura de tráfico: https://www.wireshark.org/docs/man-pages/dumpcap.html
 + trimpcap - Script para recortar las sesiones de una captura de tráfico para reducir el tamaño que ocupan:  https://www.netresec.com/?page=TrimPCAP
-+ Xplico - Ideal para reconstruir páginas web de una captura de red :https://www.xplico.org/
-+ NetworkMiner - Captura tráfico y también lo reconstruye :http://www.netresec.com/?page=NetworkMiner
-+ Paessler PRTG - Herramienta de gestión de red que trabaja con NetFlow https://www.paessler.com/prtg
-+ p0f - Ideal para identificar equipos y flujos de comunicaciones :http://lcamtuf.coredump.cx/p0f3/#
-+ ntop-ng
-+ passiveDNS
-+ packetbeat
-+ Bro
-+ Snort
-+ Suricata 
-
++ Xplico - Ideal para reconstruir páginas web de una captura de red: https://www.xplico.org/
++ NetworkMiner - Captura tráfico y también lo reconstruye: http://www.netresec.com/?page=NetworkMiner
++ Paessler PRTG - Herramienta de gestión de red que trabaja con NetFlow: https://www.paessler.com/prtg
++ p0f - Ideal para identificar equipos y flujos de comunicaciones: http://lcamtuf.coredump.cx/p0f3/#
++ ntop-ng - Una de las mejores herramientas de monitorización de tráfico :https://www.ntop.org/products/traffic-analysis/ntop/
++ passiveDNS - Herramienta para la captura de peticiones DNS : https://github.com/gamelinux/passivedns
++ packetbeat - Captura y decodifica diversos protocolos y guarda la información en ELK : https://www.elastic.co/products/beats/packetbeat
++ Bro - Monitorización de red con capacidades avanzadas (obtención de ficheros directamente desde la captura, por ejemplo): https://www.bro.org/
++ Snort - Detección de intrusos open source, junto con Suricata el mejor: https://www.snort.org/
++ Suricata - Detección de intrusos open source, junto con Snort el mejor: https://suricata-ids.org/ 
 
 ## Formación
 + ENISA Network Forensics Training
