@@ -15,12 +15,10 @@ Objetivo: Conocer los protocolos de nivel de aplicación más empleados
 * HTTPS
 
 ## 3. Fundamentos de captura: Formatos, Definición, Acceso, Almacenamiento, Gestión
-Objetivo: Entender qué es una captura de red 
-* Formatos de captura de red
-* Definición:
-* Acceso: Dificultades a la hora de capturar el tráfico
-* Almacenamiento:
-* Gestión:
+Objetivo: Entender qué es una captura de red y qué proceso debe seguirse para su realización efectiva.
+* Definición: Entender la estructura de la red y determinar qué tráfico se quiere capturar
+* Acceso: Capturar el tráfico deseado. Dificultades a la hora de capturar el tráfico.
+* Almacenamiento: Estrategias para el almacenamiento del tráfico. Formatos de captura de red.
 
 ## 4. Mecanismos de captura de tráfico (hardware, software)
 Objetivo:
@@ -36,19 +34,33 @@ NetFlow
 Objetivo:
 
 ## 8. Análisis estadístico
-Objetivo:
+Objetivo: Conocer los métodos de análisis estadístico de redes aplicados al forense:
+* Análisis de máximos y mínimos (Top 10, Bottom 10)
+* Análisis temporales (X ocurrencias en Y minutos)
 
 ## 9. Análisis de dispositivos de red (router, switches, puntos de acceso)
-Objetivo:
+Objetivo: Saber analizar dispositivos de red
+* Localización de la configuración
+* Configuración actual vs configuración persistente. Volcado.
+* Obtención de información de triage
+* Activación de mecanismos de logging
 
-## 10. Análisis de logs de proxy
-Objetivo:
+## 10. Análisis de logs de proxy web
+Objetivo: Entender qué tipos de log genera un proxy y cómo interpretarlos
+* Definición de proxy web. Tipos de proxy y arquitecturas habituales
+* Formatos de log más comunes: W3C, Apache, IIS
 
 ## 11. Análisis de logs de servidores de correo
-Objetivo:
+Objetivo: Entender qué tipos de log genera un servidor de correo y cómo interpretarlos
+* Definición de servidor de correo. Tipos de servidores de correo y arquitecturas habituales
+* Protocolos de seguridad de correo electrónico: SPF, DKIM y DMARC
+* Formatos de log más comunes: Postfix/sendmail, Exchange
+* Exchange: MessageTracking + EventHistoryDB
 
-## 12. Análisis de logs de servidores de DNS
-Objetivo:
+## 12. Análisis de logs de servidores de nombres (DNS)
+Objetivo: Entender los logs generados por un servidor DNS y su interpretación
+* Definición de un servidor de nombres. Arquitecturas más comunes
+* Formatos de log más comunes: Bind / Windows Server DNS
 
 ## 13. Análisis de logs remotos (syslog)
 Objetivo:
@@ -85,6 +97,7 @@ Objetivo: Conocer qué mecanismos pueden ser usados para exfiltrar información 
 + Bro - Monitorización de red con capacidades avanzadas (obtención de ficheros directamente desde la captura, por ejemplo): https://www.bro.org/
 + Snort - Detección de intrusos open source, junto con Suricata el mejor: https://www.snort.org/
 + Suricata - Detección de intrusos open source, junto con Snort el mejor: https://suricata-ids.org/ 
++ ROCIO - Herramienta para verificar el estado de seguridad de electrónica de red CISCO: https://www.ccn-cert.cni.es/herramientas-de-ciberseguridad/rocio.html
 
 ## Formación
 + ENISA Network Forensics Training
