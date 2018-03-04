@@ -21,17 +21,34 @@ Objetivo: Entender qué es una captura de red y qué proceso debe seguirse para 
 * Almacenamiento: Estrategias para el almacenamiento del tráfico. Formatos de captura de red.
 
 ## 4. Mecanismos de captura de tráfico (hardware, software)
-Objetivo:
+Objetivo: Conocer qué formas hay de capturar el tráfico
+* TAP (Terminal Access Point) de red pasivos y activos
+* Hardware especializado de monitorización de red 
+* Port Mirroring / SPAN
+* Captura software: tcpdump, dumpcaps, Wireshark
 
 ## 5. Análisis de paquetes
-Objetivo:
+Objetivo: Conocer las formas de analizar capturas de paquetes
+* Nivel físico 
+* Nivel de red
+* Nivel de transporte
+* Nivel de aplicación
+* Wireshark / tshark
 
 ## 6. Análisis de flujos
-Objetivo:
-NetFlow
+Objetivo: Entender qué son los flujos de tráfico y su uso en un análisis forense
+* Flujos de tráfico
+* NetFlow
 
 ## 7. Análisis de protocolos de nivel de aplicación
-Objetivo:
+Objetivo: Entender los protocolos de aplicación más usados y sus características principales
+* HTTP
+* HTTPS
+* DNS
+* SMTP
+* FTP
+* SMB
+* SSH
 
 ## 8. Análisis estadístico
 Objetivo: Conocer los métodos de análisis estadístico de redes aplicados al forense:
@@ -62,8 +79,11 @@ Objetivo: Entender los logs generados por un servidor DNS y su interpretación
 * Definición de un servidor de nombres. Arquitecturas más comunes
 * Formatos de log más comunes: Bind / Windows Server DNS
 
-## 13. Análisis de logs remotos (syslog)
-Objetivo:
+## 13. Análisis de logs remotos 
+Objetivo: Comprender qué tipo de datos pueden ser enviados de forma remota y su análisis
+* Formato syslog
+* Almacenamiento de logs remotos
+* Técnicas de análisis de logs
 
 ## 14. Canales encubiertos de comunicación 
 Objetivo: Conocer qué mecanismos pueden ser usados para exfiltrar información de forma encubierta, así como las técnicas para su detección. 
