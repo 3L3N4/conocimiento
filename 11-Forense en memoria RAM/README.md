@@ -29,13 +29,14 @@
 ## Herramientas
 + Volatility - Junto con Rekall, la herramienta de referencia de análisis de memoria: http://www.volatilityfoundation.org/
 + Rekall - Junto con Volatility, la herramienta de referencia de análisis de memoria: http://www.rekall-forensic.com/
++ Winpmem - Volcado de memoria en Windows: https://github.com/google/rekall/releases/tag/v1.5.1
 + DumpIt - Herramienta rápida y sencilla para el volcado de memoria en Windows : https://blog.comae.io/your-favorite-memory-toolkit-is-back-f97072d33d5c
 + Belkasoft Live RAM Capturer - Otra tool para volcar memoria de Windows : https://belkasoft.com/ram-capturer
 + FTK Imager Lite - Otra tool para volcar memoria de Windows (y hacer algo de triage de paso): https://accessdata.com/product-download 
-+ Winpmem - Volcado de memoria en Windows: https://github.com/google/rekall/releases/tag/v1.5.1
 + LiME - Volcado de memoria en Linux & Android : https://github.com/504ensicsLabs/LiME 
 + osxPmem - Volcado de memoria en OSX : https://github.com/google/rekall/releases/tag/v1.5.1
 + VolUtility - Interface gráfico de Volatility : https://github.com/kevthehermit/VolUtility
++ Mandiant Redline - Herramienta de captura de RAM y datos de triage: https://www.fireeye.com/services/freeware/redline.html
 + Windows Debugger -  utilidad de Microsoft para el análisis de dumps de sistema : https://www.petri.com/crash-dump-analysis-how-to-install-the-windows-debugger
 
 ## Ejercicios
