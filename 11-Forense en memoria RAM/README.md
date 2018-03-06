@@ -21,8 +21,9 @@
 ## 9. Análisis de crash dumps
 + Uso de Windbg: https://msdn.microsoft.com/en-us/library/windows/desktop/ee416349(v=vs.85).aspx
 
-## Libros
+## Libros / Recursos
 + "The art of memory forensics", Michal Hale, Andrew Case - Ed. Wiley
++ Windows Internals Book, Chapter 5: Memory Management - Ed. Microsoft Press
 
 ## Formación
 
