@@ -19,9 +19,9 @@
 
 ## 3. Navegador Chrome
 + Localización de ficheros:
-        Windows 7/8: %root%/Users/%userprofile%/AppData/Local/Google/Chrome/User Data/Default/Cache
-        Linux: /home/%userprofile%/.config/google-chrome/Default/Application Cache/Cache/
-        Mac OSX: /Users/%userprofile%/Caches/Google/Chrome/Default/Cache/
+        + Windows 7/8: %root%/Users/%userprofile%/AppData/Local/Google/Chrome/User Data/Default/Cache
+        + Linux: /home/%userprofile%/.config/google-chrome/Default/Application Cache/Cache/
+        + Mac OSX: /Users/%userprofile%/Caches/Google/Chrome/Default/Cache/
         
 ## 4. Navegador Firefox
 + Localización de ficheros:
