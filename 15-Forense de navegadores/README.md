@@ -36,17 +36,16 @@
     + Windows XP: %root%/Documents and Settings/%userprofile%/Local Settings /Temporary Internet Files/Content.IE5
     + Windows Vista/7: %root%/Users/%userprofile%/AppData/Local/Microsoft/Windows /Temporary Internet Files/Content.IE5
   + Internet Explorer 10
-        IE 10: %root%/Users/%userprofile%/AppData/Local/Microsoft/Windows /History
+    + IE 10: %root%/Users/%userprofile%/AppData/Local/Microsoft/Windows /History
 + Claves del registro de interés
 + Zonas de seguridad
 
 ## 6. Navegador Internet Edge
 + Localización de ficheros: 
-        BD: \Users\user_name\AppData\Local\Packages\Microsoft.MicrosoftEdge_xxxxx\AC\MicrosoftEdge\User\Default\DataStore\Data\nouser1\xxxxx\DBStore\spartan.edb
-        Caché: \Users\user_name\AppData\Local\Packages\Microsoft.MicrosoftEdge_xxxx\AC\#!001\MicrosoftEdge\Cache\
-        Historial: \Users\user_name\AppData\Local\Microsoft\Windows\WebCache\WebCacheV01.dat 
-        Descargas: BD ESE WebCacheV01.dat, en la tabla "iedownload"
-
+  + BD: \Users\user_name\AppData\Local\Packages\Microsoft.MicrosoftEdge_xxxxx\AC\MicrosoftEdge\User\Default\DataStore\Data\nouser1\xxxxx\DBStore\spartan.edb
+  + Caché: \Users\user_name\AppData\Local\Packages\Microsoft.MicrosoftEdge_xxxx\AC\#!001\MicrosoftEdge\Cache\
+  + Historial: \Users\user_name\AppData\Local\Microsoft\Windows\WebCache\WebCacheV01.dat 
+  + Descargas: BD ESE WebCacheV01.dat, en la tabla "iedownload"
 + Bases de datos ESE
 https://www.linkedin.com/pulse/windows-10-microsoft-edge-browser-forensics-brent-muir/
 https://bsmuir.kinja.com/windows-10-microsoft-edge-browser-forensics-1733533818
@@ -54,8 +53,8 @@ http://www.dataforensics.org/microsoft-edge-browser-forensics/
 
 ## 7. Navegador Safari
 + Localización de ficheros: 
-        Mac OSX: /Users/$USERNAME/Library/Safari/*
-        Windows 7/8: %root%/Users/%userprofile%/AppData/Roaming/Apple Computer/Safari/
+  + Mac OSX: /Users/$USERNAME/Library/Safari/*
+  + Windows 7/8: %root%/Users/%userprofile%/AppData/Roaming/Apple Computer/Safari/
        
 ## 8. Otros navegadores
 + Opera
