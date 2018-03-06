@@ -6,11 +6,14 @@
 + Cookies
 + Cachés del navegador
 + Ads & Adblockers
-+ Modo depuración
++ Contraseñas guardadas
++ Bookmarks
 + Descargas
 + Complementos / Plugins / Extensiones
 + Certificados digitales
-+ Modo privado
++ Modo privado (y sus limitaciones, ver Forense de memoria RAM)
++ Modo depuración
++ Navegadores portables
 
 ## 2. Determinar navegadores usados
 + Prefetch
@@ -19,16 +22,20 @@
 
 ## 3. Navegador Chrome
 + Localización de ficheros:
-  + Windows 7/8: %root%/Users/%userprofile%/AppData/Local/Google/Chrome/User Data/Default/Cache
-  + Linux: /home/%userprofile%/.config/google-chrome/Default/Application Cache/Cache/
-  + Mac OSX: /Users/%userprofile%/Caches/Google/Chrome/Default/Cache/
+  + Windows 7/8: %root%/Users/%userprofile%/AppData/Local/Google/Chrome/User Data/Default/
+  + Linux: /home/%userprofile%/.config/google-chrome/Default/Application Cache/
+  + Mac OSX: /Users/%userprofile%/Caches/Google/Chrome/Default/
         
 ## 4. Navegador Firefox
 + Localización de ficheros:
-  + Windows 7/8: %root%/Users/%userprofile%/AppData/Local/Mozilla/Firefox/ Profiles/*.default/Cache
-  + Linux: /home/%userprofile%/.mozilla/firefox/$PROFILE.default/Cache
-  + Mac OS X: /Users/%userprofile%/Library/Caches/Firefox/Profiles/ $PROFILE.default/Cache/
+  + Windows 7/8: %root%/Users/%userprofile%/AppData/Local/Mozilla/Firefox/ Profiles/
+  + Linux: /home/%userprofile%/.mozilla/firefox/$PROFILE.default/
+  + Mac OS X: /Users/%userprofile%/Library/Caches/Firefox/Profiles/ $PROFILE.default//
 + Uso de SQLite para guardar información
+
+http://www.acquireforensics.com/services/tech/mozilla-firefox.html
+http://www.dataforensics.org/mozilla-firefox-forensics/
+https://www.foxtonforensics.com/browser-history-examiner/firefox-data
 
 ## 5. Navegador Internet Explorer
 + Localización de ficheros: 
@@ -47,6 +54,7 @@
   + Historial: \Users\user_name\AppData\Local\Microsoft\Windows\WebCache\WebCacheV01.dat 
   + Descargas: BD ESE WebCacheV01.dat, en la tabla "iedownload"
 + Bases de datos ESE
+
 https://www.linkedin.com/pulse/windows-10-microsoft-edge-browser-forensics-brent-muir/
 https://bsmuir.kinja.com/windows-10-microsoft-edge-browser-forensics-1733533818
 http://www.dataforensics.org/microsoft-edge-browser-forensics/
@@ -60,7 +68,6 @@ http://www.dataforensics.org/microsoft-edge-browser-forensics/
 + Opera
 + Midori
  
-
 ## Libros
 
 ## Formación
@@ -72,5 +79,6 @@ http://www.dataforensics.org/microsoft-edge-browser-forensics/
 + SQLiteBrowser - Herramienta para parsear BD SQLite : http://sqlitebrowser.org/ 
 + libesedb - Librería para gestionar BD ESE en Linux : https://github.com/libyal/libesedb/wiki/Building
 + ESEDatabaseView - Visor de BD ESE : https://www.nirsoft.net/utils/ese_database_view.html
+
 
 ## Ejercicios
