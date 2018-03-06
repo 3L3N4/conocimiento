@@ -19,23 +19,23 @@
 
 ## 3. Navegador Chrome
 + Localización de ficheros:
-        + Windows 7/8: %root%/Users/%userprofile%/AppData/Local/Google/Chrome/User Data/Default/Cache
-        + Linux: /home/%userprofile%/.config/google-chrome/Default/Application Cache/Cache/
-        + Mac OSX: /Users/%userprofile%/Caches/Google/Chrome/Default/Cache/
+  + Windows 7/8: %root%/Users/%userprofile%/AppData/Local/Google/Chrome/User Data/Default/Cache
+  + Linux: /home/%userprofile%/.config/google-chrome/Default/Application Cache/Cache/
+  + Mac OSX: /Users/%userprofile%/Caches/Google/Chrome/Default/Cache/
         
 ## 4. Navegador Firefox
 + Localización de ficheros:
-        Windows 7/8: %root%/Users/%userprofile%/AppData/Local/Mozilla/Firefox/ Profiles/*.default/Cache
-        Linux: /home/%userprofile%/.mozilla/firefox/$PROFILE.default/Cache
-        Mac OS X: /Users/%userprofile%/Library/Caches/Firefox/Profiles/ $PROFILE.default/Cache/
+  + Windows 7/8: %root%/Users/%userprofile%/AppData/Local/Mozilla/Firefox/ Profiles/*.default/Cache
+  + Linux: /home/%userprofile%/.mozilla/firefox/$PROFILE.default/Cache
+  + Mac OS X: /Users/%userprofile%/Library/Caches/Firefox/Profiles/ $PROFILE.default/Cache/
 + Uso de SQLite para guardar información
 
 ## 5. Navegador Internet Explorer
 + Localización de ficheros: 
-IE (prior to version 10)
-        Windows XP: %root%/Documents and Settings/%userprofile%/Local Settings /Temporary Internet Files/Content.IE5
-        Windows Vista/7: %root%/Users/%userprofile%/AppData/Local/Microsoft/Windows /Temporary Internet Files/Content.IE5
-Internet Explorer 10
+  + IE (prior to version 10)
+    + Windows XP: %root%/Documents and Settings/%userprofile%/Local Settings /Temporary Internet Files/Content.IE5
+    + Windows Vista/7: %root%/Users/%userprofile%/AppData/Local/Microsoft/Windows /Temporary Internet Files/Content.IE5
+  + Internet Explorer 10
         IE 10: %root%/Users/%userprofile%/AppData/Local/Microsoft/Windows /History
 + Claves del registro de interés
 + Zonas de seguridad
