@@ -25,7 +25,9 @@
   + Windows 7/8: %root%/Users/%userprofile%/AppData/Local/Google/Chrome/User Data/Default/
   + Linux: /home/%userprofile%/.config/google-chrome/Default/Application Cache/
   + Mac OSX: /Users/%userprofile%/Caches/Google/Chrome/Default/
-        
+
+http://jon.glass/blog/parses-chrome-stuff-with-python/
+
 ## 4. Navegador Firefox
 + Localización de ficheros:
   + Windows 7/8: %root%/Users/%userprofile%/AppData/Local/Mozilla/Firefox/ Profiles/
@@ -67,18 +69,21 @@ http://www.dataforensics.org/microsoft-edge-browser-forensics/
 ## 8. Otros navegadores
 + Opera
 + Midori
++ Chromium
  
 ## Libros
 
 ## Formación
 
 ## Herramientas
-+ BrowsingHistoryView - Extrae el historial :https://www.nirsoft.net/utils/browsing_history_view.html
++ BrowsingHistoryView - Extrae el historial : https://www.nirsoft.net/utils/browsing_history_view.html
 + MyLastSearch - Obtiene las búsquedas realizadas con los navegadores : https://www.nirsoft.net/utils/my_last_search.html
++ Browser History Viewer - Otra herramienta para revisar el historial: https://www.foxtonforensics.com/browser-history-viewer/
 + Pasco - Herramienta para el análisis de Internet Explorer : https://www.mcafee.com/hk/downloads/free-tools/pasco.aspx
++ Hindsight - Análisis de artefactos de Chrome/Chromium: https://github.com/obsidianforensics/hindsight
++ FoxAnalysis - Análisis de artegactos en Firefox : https://haxf4rall.com/2017/09/04/foxanalysis-firefox-internet-history-analysis-tool/
 + SQLiteBrowser - Herramienta para parsear BD SQLite : http://sqlitebrowser.org/ 
 + libesedb - Librería para gestionar BD ESE en Linux : https://github.com/libyal/libesedb/wiki/Building
 + ESEDatabaseView - Visor de BD ESE : https://www.nirsoft.net/utils/ese_database_view.html
-
 
 ## Ejercicios
