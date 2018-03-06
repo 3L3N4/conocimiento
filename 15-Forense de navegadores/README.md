@@ -1,16 +1,27 @@
 # 15. Forense de navegadores
 
-## 1. 
+## 1. Fundamentos de un navegador web moderno
++ Protocolo HTTP
++ Historial
++ Cookies
++ Cachés del navegador
++ Modo depuración
++ Descargas
++ Complementos / Plugins / Extensiones
++ Certificados digitales
++ Modo privado
 
-## 2.
+## 2. Navegador Chrome
 
-## 3.
+## 3. Navegador Firefox
 
-## 4. 
+## 4. Navegador Internet Explorer
 
-## 5. 
+## 5. Navegador Safari
 
-## 6. 
+## 6. Otros navegadores
++ Opera
++ Midori
 
 ## 7. 
 
@@ -25,5 +36,5 @@
 ## Formación
 
 ## Herramientas
-
++ Pasco: 
 ## Ejercicios
