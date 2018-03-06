@@ -7,6 +7,7 @@
 ## 2. Adquisición de memoria en Windows
 
 ## 3. Artefactos en la memoria (Windows)
++ Perfiles de Volatility en los últimos W10: http://cyberforensicator.com/2018/03/05/volatility-profiles-and-windows-10/
 
 ## 4. Adquisición de memoria en Linux
 
